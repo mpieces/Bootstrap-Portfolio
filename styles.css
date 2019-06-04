@@ -18,6 +18,11 @@ body {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.navlink a:hover {
+    color: #4aaaa5;
+}
+
+/* main content area */
 .content{
     margin-top: 50px;
     max-width: 960px;
@@ -41,6 +46,11 @@ p {
     color: #777777;
 }
 
+h5 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+}
+
 .btn-aqua, .btn-aqua:hover {
     background-color: #4aaaa5;
     border-radius: 0;
@@ -52,5 +62,10 @@ p {
 }
 
 .card-title {
-    background-color: #4aaaa5;
+    background: rgba(74, 170, 165, 0.8); 
+    line-height: 2;
+}
+
+.card-img-overlay {
+    padding: 15px;
 }
