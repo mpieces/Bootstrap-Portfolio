@@ -69,3 +69,8 @@ h5 {
 .card-img-overlay {
     padding: 15px;
 }
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+}
